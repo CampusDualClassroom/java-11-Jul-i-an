@@ -40,10 +40,10 @@ public class TVRemote {
         return this.color;
     }
     private boolean checkMinValue(int value){
-        if (value == 0){
+        if (value == 0)
             return false;
-        } else{
+        else
             return true;
-        }
+
     }
 }
